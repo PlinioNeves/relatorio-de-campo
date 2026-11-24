@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#263634" stroke-width="11"/>
+  <!-- desenho em traço, no mesmo estilo dos ícones da barra (grade 24x24) -->
+  <g transform="translate(103 115) scale(12)" fill="none" stroke="#263634" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <!-- bloquinho -->
+    <rect x="3" y="4" width="10" height="16" rx="2"/>
+    <path d="M5.8 2.6v3M8 2.6v3M10.2 2.6v3"/>
+    <path d="M5.8 9.5h4.4M5.8 12.5h4.4M5.8 15.5h2.6"/>
+    <!-- plantinha -->
+    <path d="M18.6 21v-7.6"/>
+    <path d="M18.6 17.2c0-2-1.6-3.6-3.6-3.6 0 2 1.6 3.6 3.6 3.6z"/>
+    <path d="M18.6 13.6c0-2.6 2.1-4.6 4.6-4.6 0 2.6-2.1 4.6-4.6 4.6z"/>
+    <path d="M15.6 21h6"/>
+  </g>
+</svg>

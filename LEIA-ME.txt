@@ -1,0 +1,34 @@
+RELATÓRIO DE CAMPO — APP PARA CELULAR (v23)
+============================================
+
+ESTA PASTA É O APP. Publique TODOS os arquivos dela juntos, sem renomear nada:
+  index.html              o app
+  manifest.webmanifest    nome, cor e ícones do app
+  sw.js                   faz funcionar sem internet e atualizar sozinho
+  icon-*.png / apple-touch-icon.png / favicon-32.png   ícones
+
+PUBLICAR NO GITHUB PAGES (gratuito)
+1. Crie uma conta em github.com (se ainda não tiver).
+2. Clique em "+" > "New repository". Nome: relatorio-de-campo. Marque "Public". Clique em "Create repository".
+3. Na página do repositório, clique em "uploading an existing file".
+   Arraste TODOS os arquivos desta pasta (menos este LEIA-ME, se quiser) e clique em "Commit changes".
+4. Vá em Settings > Pages. Em "Branch", escolha "main" e pasta "/ (root)". Clique em "Save".
+5. Aguarde 1 a 2 minutos. O endereço do app será:
+   https://SEU-USUARIO.github.io/relatorio-de-campo/
+
+INSTALAR NO CELULAR
+- Android (Chrome): abra o endereço > aba Histórico > "Instalar app"
+  (ou menu ⋮ > "Instalar app").
+- iPhone (Safari): abra o endereço > botão Compartilhar > "Adicionar à Tela de Início".
+
+ATUALIZAR O APP DEPOIS
+1. No repositório, envie o novo index.html por cima do antigo ("Add file" > "Upload files").
+2. Em sw.js, troque a linha  const VERSAO = 'v23';  pelo número novo (ex.: 'v24').
+Os celulares recebem a versão nova na próxima vez que abrirem o app com internet.
+
+ANTES DE TROCAR PARA O APP INSTALADO
+As visitas salvas na versão antiga (aberta pelo WhatsApp) ficam guardadas só nela.
+Na versão antiga: Histórico > "Exportar backup". No app instalado: Histórico > "Importar backup".
+
+O repositório é público: qualquer pessoa com o endereço vê o app vazio.
+As visitas, textos e fotos ficam só no celular de quem usa — nada vai para a internet.
